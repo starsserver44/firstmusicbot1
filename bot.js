@@ -7,15 +7,18 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
  
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '$';
+const prefix = '1';
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
 });
- 
+
+client.on('ready', () => {
+    client.user.setActivity("SYRTA",{type: 'PLAYING'})   /// لمن تبي تغير , غير كلمة LISTENING الى بلايينق او واتشينق 
+
       client.on('ready', () => {
      
       });
-/*
+
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
