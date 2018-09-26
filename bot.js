@@ -12,9 +12,6 @@ client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
 });
 
-client.on('ready', () => {
-    client.user.setActivity("SYRTA",{type: 'PLAYING'})   /// لمن تبي تغير , غير كلمة LISTENING الى بلايينق او واتشينق 
-
       client.on('ready', () => {
      
       });
