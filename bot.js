@@ -249,4 +249,3 @@ if (message.content.startsWith(prefix + 'setavt')) {
 });
 
  client.login(process.env.BOT_TOKEN);
- client.login(process.env.BOT_TOKEN);
